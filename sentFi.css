@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #100420;
+}
+
+.logo {
+	position: relative;
+	left: 3%;
+	right: 0%;
+	top: 42px;
+	bottom: 0%;
+	width: 149px;
+}
+
+input[type="text"] {
+	position: relative;
+	width: 562px;
+	height: 47px;
+	top: 30px;
+	left: 220px;
+	border-radius: 15px;
+	border: none;
+	opacity: 0.9;
+	background: rgba(46, 28, 69, 0.51);
+}
+
+input::placeholder {
+	font-family: "Inter", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	position: relative;
+	left: 3%;
+	color: rgba(255, 255, 255, 0.67);
+}
+
+img.search {
+	position: relative;
+	width: 20px;
+	height: 29px;
+	left: 878px;
+	top: 24px;
+	color: #100420;
+}
+
+.wallet {
+	background-color: azure;
+	position: relative;
+	width: 220px;
+	left: 1050px;
+	top: -15.4px;
+	border-radius: 15px;
+	height: 47px;
+	text-align: center;
+	opacity: 0.9;
+	background: rgba(255, 255, 255, 0.08);
+}
+
+.wallet span {
+	color: #ffff;
+	font-size: 14px;
+	font-family: "Inter", sans-serif;
+	top: 0.1rem;
+	position: relative;
+	left: -2%;
+}
+
+.wallet img {
+	width: 26px;
+	height: 27px;
+	position: relative;
+	left: -5%;
+	right: 17.01%;
+	top: 23%;
+	bottom: 96.14%;
+}
+
+hr {
+	position: relative;
+	min-width: 101%;
+	height: 0px;
+	left: -15px;
+	top: 20px;
+
+	border: 1px solid rgba(146, 136, 136, 0.904);
+	transform: rotate(180deg);
+}
