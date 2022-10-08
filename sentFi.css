@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;900&display=swap");
 
 * {
 	margin: 0;
@@ -8,6 +8,11 @@
 
 body {
 	background: #100420;
+	overflow-x: hidden;
+}
+
+header {
+	max-width: 90%;
 }
 
 .logo {
@@ -46,8 +51,8 @@ img.search {
 	position: relative;
 	width: 20px;
 	height: 29px;
-	left: 878px;
-	top: 24px;
+	left: 13%;
+	top: 40.4px;
 	color: #100420;
 }
 
@@ -82,14 +87,99 @@ img.search {
 	top: 23%;
 	bottom: 96.14%;
 }
-
-hr {
+.hr-lin {
 	position: relative;
 	min-width: 101%;
 	height: 0px;
 	left: -15px;
 	top: 20px;
-
-	border: 1px solid rgba(146, 136, 136, 0.904);
+	border: 1px solid rgba(255, 255, 255, 0.21);
 	transform: rotate(180deg);
+}
+
+.vertical-line {
+	border-left: 1px solid rgba(255, 255, 255, 0.21);
+	height: 500px;
+	position: relative;
+	left: 265px;
+	top: 1.23rem;
+}
+
+.left-half {
+	position: absolute;
+	top: 25%;
+	left: 23%;
+	color: wheat;
+}
+
+.left-half b {
+	width: 196px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 128%;
+	/* identical to box height, or 31px */
+
+	text-align: center;
+	letter-spacing: 0.02em;
+
+	color: #ffffff;
+}
+
+.left-half h1 {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 900;
+	font-size: 48px;
+	line-height: 128%;
+	letter-spacing: 0.02em;
+	letter-spacing: 2%;
+	color: #88e900;
+	max-width: 70%;
+	margin-top: 10px;
+}
+
+.left-half p {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 25px;
+	max-width: 364px;
+	color: #ffffff;
+	margin-top: 15px;
+}
+.left-but {
+	margin-top: 10px;
+}
+button.create-loan {
+	box-sizing: border-box;
+	width: 165px;
+	height: 45px;
+	background: #88e900;
+	border-radius: 20px;
+}
+button.create-loan span {
+	font-family: "Inter";
+	font-style: normal;
+	font-size: 15px;
+	line-height: 19px;
+	color: #26143e;
+	font-weight: 500;
+}
+button.inst-loan {
+	margin-left: 27px;
+	width: 165px;
+	height: 45px;
+	border: 1px solid #88e900;
+	border-radius: 20px;
+	background-color: transparent;
+}
+button.inst-loan span {
+	font-family: "Inter";
+	font-style: normal;
+	font-size: 16px;
+	line-height: 19px;
+	color: #88e900;
 }
