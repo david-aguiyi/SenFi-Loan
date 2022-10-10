@@ -29,7 +29,7 @@ input[type="text"] {
 	width: 562px;
 	height: 47px;
 	top: 30px;
-	left: 220px;
+	left: 200px;
 	border-radius: 15px;
 	border: none;
 	opacity: 0.9;
@@ -51,7 +51,7 @@ img.search {
 	position: relative;
 	width: 20px;
 	height: 29px;
-	left: 13%;
+	left: 11.5%;
 	top: 40.4px;
 	color: #100420;
 }
@@ -60,8 +60,8 @@ img.search {
 	background-color: azure;
 	position: relative;
 	width: 220px;
-	left: 1050px;
-	top: -15.4px;
+	left: 1230px;
+	top: -19px;
 	border-radius: 15px;
 	height: 47px;
 	text-align: center;
@@ -108,7 +108,7 @@ img.search {
 .left-half {
 	position: absolute;
 	top: 25%;
-	left: 23%;
+	left: 20%;
 	color: wheat;
 }
 
@@ -182,4 +182,251 @@ button.inst-loan span {
 	font-size: 16px;
 	line-height: 19px;
 	color: #88e900;
+}
+
+#right-half1 {
+	font-family: "Inter";
+	position: relative;
+	left: 60%;
+	margin-top: -37.7rem;
+	color: wheat;
+	box-sizing: border-box;
+	width: 310px;
+	height: 402px;
+	left: 705px;
+	top: 145px;
+	background: rgba(228, 206, 255, 0.17);
+	backdrop-filter: blur(15.5px);
+	border-radius: 20px;
+}
+
+.depo-bold {
+	position: absolute;
+	left: 26px;
+	top: 21px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 154.52%;
+	color: white;
+}
+
+.depo-text {
+	position: absolute;
+	left: 26px;
+	top: 64px;
+	width: 90%;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 132.52%;
+	color: #ffffff;
+}
+
+.coin-depo {
+	position: relative;
+	width: 265px;
+	height: 244px;
+	left: 26px;
+	top: 125px;
+	bottom: 33px;
+}
+#eth-card {
+	box-sizing: border-box;
+	position: absolute;
+	width: 265px;
+	height: 56px;
+	background: rgba(228, 206, 255, 0.17);
+	border-radius: 15px;
+}
+
+#sol-card {
+	box-sizing: border-box;
+	position: absolute;
+	width: 265px;
+	height: 56px;
+	bottom: 126px;
+	background: rgba(228, 206, 255, 0.17);
+	border-radius: 15px;
+}
+
+#usdc-card {
+	box-sizing: border-box;
+	position: absolute;
+	width: 265px;
+	height: 56px;
+	bottom: 64px;
+	background: rgba(228, 206, 255, 0.17);
+	border-radius: 15px;
+}
+
+#matic-card {
+	box-sizing: border-box;
+	position: absolute;
+	width: 265px;
+	height: 56px;
+	top: 186px;
+	background: rgba(228, 206, 255, 0.17);
+	border-radius: 15px;
+}
+
+#eth-icon {
+	position: relative;
+	left: 7px;
+	top: 6.36px;
+}
+
+.eth-descript {
+	position: absolute;
+	left: 51px;
+	color: white;
+	bottom: 10px;
+}
+
+#eth-apy {
+	font-size: 14px;
+	color: #88e900;
+}
+
+#eth-but {
+	box-sizing: border-box;
+	border: none;
+	width: 80px;
+	height: 35px;
+	margin-left: 170px;
+	background: #88e900;
+	backdrop-filter: blur(15.5px);
+	/* Note: backdrop-filter has minimal browser support */
+	margin-top: -34.5px;
+	display: block;
+	border-radius: 10px;
+	font-weight: 700;
+}
+
+.blur {
+	position: absolute;
+	width: 466px;
+	height: 430px;
+	left: 887px;
+	top: 105px;
+	background: rgba(0, 156, 243, 0.24);
+	filter: blur(110px);
+}
+
+#sol-img {
+	position: absolute;
+	left: 10.38px;
+	top: 9px;
+}
+
+.sol-descript {
+	position: absolute;
+	left: 51px;
+	bottom: 10px;
+	top: 9px;
+	color: white;
+}
+
+.sol-descript span {
+	color: #88e900;
+	font-size: 14px;
+}
+#sol-but {
+	box-sizing: border-box;
+	border: none;
+	width: 80px;
+	height: 35px;
+	margin-left: 170px;
+	background: #88e900;
+	backdrop-filter: blur(15.5px);
+	/* Note: backdrop-filter has minimal browser support */
+	margin-top: 11px;
+	display: block;
+	border-radius: 10px;
+	font-weight: 700;
+}
+
+#usdc-img {
+	position: absolute;
+	left: 10.38px;
+	top: 9px;
+}
+
+.usdc-descript {
+	position: absolute;
+	left: 51px;
+	bottom: 10px;
+	top: 9px;
+	color: white;
+}
+
+.usdc-descript span {
+	color: #88e900;
+	font-size: 14px;
+}
+
+#usdc-but {
+	box-sizing: border-box;
+	border: none;
+	width: 80px;
+	height: 35px;
+	margin-left: 170px;
+	background: #88e900;
+	backdrop-filter: blur(15.5px);
+	/* Note: backdrop-filter has minimal browser support */
+	margin-top: 11px;
+	display: block;
+	border-radius: 10px;
+	font-weight: 700;
+}
+
+#matic-img {
+	position: absolute;
+	left: 1px;
+	top: 4px;
+}
+
+.matic-descript {
+	position: absolute;
+	left: 51px;
+	bottom: 10px;
+	top: 9px;
+	color: white;
+}
+
+.matic-descript span {
+	color: #88e900;
+	font-size: 14px;
+}
+#matic-but {
+	box-sizing: border-box;
+	border: none;
+	width: 80px;
+	height: 35px;
+	margin-left: 170px;
+	background: #88e900;
+	backdrop-filter: blur(15.5px);
+	/* Note: backdrop-filter has minimal browser support */
+	margin-top: 11px;
+	display: block;
+	border-radius: 10px;
+	font-weight: 700;
+}
+
+#right-half2 {
+	font-family: "Inter";
+	position: relative;
+	left: 60%;
+	margin-top: -37.7rem;
+	color: wheat;
+	box-sizing: border-box;
+	width: 310px;
+	height: 402px;
+	left: 1050px;
+	top: 346px;
+	background: rgba(228, 206, 255, 0.17);
+	backdrop-filter: blur(15.5px);
+	border-radius: 20px;
 }
