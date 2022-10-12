@@ -9,6 +9,7 @@
 body {
 	background: #100420;
 	overflow-x: hidden;
+	margin: auto;
 }
 
 header {
@@ -60,7 +61,7 @@ img.search {
 	background-color: azure;
 	position: relative;
 	width: 220px;
-	left: 1230px;
+	left: 1090px;
 	top: -19px;
 	border-radius: 15px;
 	height: 47px;
@@ -99,7 +100,7 @@ img.search {
 
 .vertical-line {
 	border-left: 1px solid rgba(255, 255, 255, 0.21);
-	height: 500px;
+	height: 60rem;
 	position: relative;
 	left: 265px;
 	top: 1.23rem;
@@ -108,7 +109,7 @@ img.search {
 .left-half {
 	position: absolute;
 	top: 25%;
-	left: 20%;
+	left: 22%;
 	color: wheat;
 }
 
@@ -187,14 +188,14 @@ button.inst-loan span {
 #right-half1 {
 	font-family: "Inter";
 	position: relative;
-	left: 60%;
 	margin-top: -37.7rem;
 	color: wheat;
 	box-sizing: border-box;
 	width: 310px;
 	height: 402px;
-	left: 705px;
+	left: 690px;
 	top: 145px;
+	padding-right: 4em;
 	background: rgba(228, 206, 255, 0.17);
 	backdrop-filter: blur(15.5px);
 	border-radius: 20px;
@@ -248,6 +249,7 @@ button.inst-loan span {
 	width: 265px;
 	height: 56px;
 	bottom: 126px;
+	max-width: 100%;
 	background: rgba(228, 206, 255, 0.17);
 	border-radius: 15px;
 }
@@ -418,15 +420,72 @@ button.inst-loan span {
 #right-half2 {
 	font-family: "Inter";
 	position: relative;
-	left: 60%;
 	margin-top: -37.7rem;
 	color: wheat;
 	box-sizing: border-box;
 	width: 310px;
 	height: 402px;
-	left: 1050px;
+	left: 1020px;
 	top: 346px;
 	background: rgba(228, 206, 255, 0.17);
 	backdrop-filter: blur(15.5px);
 	border-radius: 20px;
+}
+
+.right-half {
+	position: relative;
+	top: -28.5rem;
+}
+
+nav {
+	position: relative;
+	left: 275px;
+	top: -3rem;
+}
+
+nav ul li {
+	list-style: none;
+	font-family: "Inter";
+	font-style: normal;
+	font-size: 16px;
+	line-height: 19px;
+	float: left;
+	margin: 19px 33px;
+	color: #ffffff;
+	font-weight: 400;
+}
+
+nav ul li a {
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+	color: white;
+}
+nav ul li a::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: -15px;
+	left: 0;
+	background-color: white;
+	transform-origin: bottom right;
+	transition: transform 0.5s ease-out;
+}
+nav ul li a:hover {
+	font-weight: 500;
+}
+nav ul li a:hover::after {
+	transform: scaleX(1);
+	transform-origin: bottom left;
+}
+
+.line2 {
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	position: absolute;
+	width: 1020px;
+	height: 0px;
+	left: 33px;
+	top: 51px;
 }
