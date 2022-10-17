@@ -14,6 +14,7 @@ body {
 
 header {
 	max-width: 90%;
+	/* position: fixed; */
 }
 
 .logo {
@@ -100,7 +101,7 @@ img.search {
 
 .vertical-line {
 	border-left: 1px solid rgba(255, 255, 255, 0.21);
-	height: 60rem;
+	height: 95rem;
 	position: relative;
 	left: 265px;
 	top: 1.23rem;
@@ -171,7 +172,7 @@ button.create-loan span {
 	font-weight: 500;
 }
 button.inst-loan {
-	margin-left: 27px;
+	margin-left: 19px;
 	width: 165px;
 	height: 45px;
 	border: 1px solid #88e900;
@@ -435,13 +436,13 @@ button.inst-loan span {
 
 .right-half {
 	position: relative;
-	top: -28.5rem;
+	top: -63.5rem;
 }
 
 nav {
 	position: relative;
 	left: 275px;
-	top: -3rem;
+	top: -38.5rem;
 }
 
 nav ul li {
@@ -542,7 +543,7 @@ option {
 .drop-down-arrow {
 	position: absolute;
 	left: 17%;
-	top: 61px;
+	top: 60px;
 	pointer-events: none;
 }
 
@@ -554,7 +555,7 @@ option {
 }
 #drop-down5 {
 	position: relative;
-	left: 756.5px;
+	left: 754px;
 	top: -6.5px;
 }
 
@@ -566,8 +567,8 @@ option {
 
 .drop-down-arrow3 {
 	position: relative;
-	right: 73px;
-	top: 39px;
+	right: 71px;
+	top: 39.8px;
 	pointer-events: none;
 }
 
@@ -583,4 +584,897 @@ option {
 	top: 60px;
 	left: 900px;
 	pointer-events: none;
+}
+
+.main-page {
+	max-width: 20%;
+}
+
+.nft-card1 {
+	box-sizing: border-box;
+	position: absolute;
+	width: 500px;
+	height: 228px;
+	left: 297px;
+	top: 824px;
+	background: #281c39;
+	border-radius: 20px;
+}
+
+.nft-img {
+	display: block;
+	margin-top: 24px;
+	margin-left: 19px;
+}
+
+.clockhand {
+	position: absolute;
+	right: 208.5px;
+	top: 57px;
+}
+.nft-img span {
+	position: absolute;
+	width: 94px;
+	height: 39px;
+	background: #88e900;
+	border-radius: 20px 0px;
+	top: 164px;
+	left: 129px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	color: #000000;
+}
+
+.nft-card-left1 {
+	position: absolute;
+	top: 20px;
+	left: 48%;
+}
+
+.nft-card-left1 b {
+	color: white;
+
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.nft-card-left1 p#list-p {
+	display: block;
+	margin-top: 8px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	/* identical to box height */
+
+	color: #ff8e8e;
+}
+
+.nft-icons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 10px;
+	margin-right: 30px;
+}
+
+.nft-icons.img2 {
+	width: 18px;
+}
+
+.nft-icons span {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	position: relative;
+	bottom: 7px;
+	margin-left: 5px;
+	margin-right: 19px;
+	color: #ffffff;
+}
+
+.span span {
+	color: white;
+	margin-top: 10px;
+	display: inline-grid;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #ffffff;
+}
+
+.span span.green {
+	color: #88e900;
+	margin-right: 6px;
+}
+
+.span span#green-apy {
+	margin-left: 19px;
+}
+
+.line3 {
+	display: block;
+	width: 224px;
+	height: 0px;
+	margin-top: 15px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bottom-left #loanReturn {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: white;
+	display: block;
+	margin-top: 10px;
+}
+
+.bottom-left img {
+	margin-top: 10px;
+	width: 27px;
+	height: 27px;
+}
+
+.bottom-left #eight {
+	color: white;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	position: relative;
+	left: 6px;
+	bottom: 10px;
+}
+
+.nft-card2 {
+	box-sizing: border-box;
+	position: absolute;
+	width: 500px;
+	height: 228px;
+	left: 820px;
+	top: 824px;
+	background: #281c39;
+	border-radius: 20px;
+}
+
+.nft-img2 {
+	display: block;
+	margin-top: 24px;
+	margin-left: 19px;
+}
+
+.clockhand2 {
+	position: absolute;
+	right: 208.5px;
+	top: 5px;
+}
+.nft-img2 span {
+	position: absolute;
+	width: 94px;
+	height: 39px;
+	background: #88e900;
+	border-radius: 20px 0px;
+	top: 164px;
+	left: 129px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	color: #000000;
+}
+
+.nft-card-left2 {
+	position: absolute;
+	top: 20px;
+	left: 48%;
+}
+
+.nft-card-left2 b {
+	color: white;
+
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.nft-card-left2 p#list-p2 {
+	display: block;
+	margin-top: 8px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	/* identical to box height */
+
+	color: #ff8e8e;
+}
+
+.nft-icons2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 10px;
+	margin-right: 30px;
+}
+
+.nft-icons2 span {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	position: relative;
+	bottom: 7px;
+	margin-left: 5px;
+	margin-right: 19px;
+	color: #ffffff;
+}
+
+.span2 span {
+	color: white;
+	margin-top: 10px;
+	display: inline-grid;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #ffffff;
+}
+
+.span2 span.green2 {
+	color: #88e900;
+	margin-right: 6px;
+	margin-left: 5px;
+}
+
+.span2 span#green-apy2 {
+	margin-left: 19px;
+}
+
+.line4 {
+	display: block;
+	width: 224px;
+	height: 0px;
+	margin-top: 15px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bottom-left2 #loanReturn2 {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: white;
+	display: block;
+	margin-top: 10px;
+}
+
+.bottom-left2 img {
+	margin-top: 10px;
+	width: 27px;
+	height: 27px;
+}
+
+.bottom-left2 #eight2 {
+	color: white;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	position: relative;
+	left: 5px;
+	bottom: 10px;
+}
+
+.down {
+	position: relative;
+	top: 18px;
+}
+
+.nft-card3 {
+	box-sizing: border-box;
+	position: absolute;
+	width: 500px;
+	height: 228px;
+	left: 294px;
+	top: 1070px;
+	background: #281c39;
+	border-radius: 20px;
+}
+
+.nft-img3 {
+	display: block;
+	margin-top: 24px;
+	margin-left: 19px;
+}
+
+.clockhand3 {
+	position: absolute;
+	right: 208.5px;
+	top: 57px;
+}
+
+.nft-img3 span {
+	position: absolute;
+	width: 94px;
+	height: 39px;
+	background: #88e900;
+	border-radius: 20px 0px;
+	top: 164px;
+	left: 129px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	color: #000000;
+}
+
+.nft-card-left3 {
+	position: absolute;
+	top: 20px;
+	left: 48%;
+}
+
+.nft-card-left3 b {
+	color: white;
+
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.nft-card-left3 p#list-p3 {
+	display: block;
+	margin-top: 8px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	/* identical to box height */
+
+	color: #ff8e8e;
+}
+
+.nft-icons3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 10px;
+	margin-right: 30px;
+}
+
+.nft-icons3.img3 {
+	width: 18px;
+}
+
+.nft-icons3 span {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	position: relative;
+	bottom: 7px;
+	margin-left: 5px;
+	margin-right: 19px;
+	color: #ffffff;
+}
+
+.span3 span {
+	color: white;
+	margin-top: 10px;
+	display: inline-grid;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #ffffff;
+}
+
+.span3 span.green3 {
+	color: #88e900;
+	margin-right: 6px;
+}
+
+.span3 span#green-apy3 {
+	margin-left: 19px;
+}
+
+.line5 {
+	display: block;
+	width: 224px;
+	height: 0px;
+	margin-top: 15px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bottom-left3 #loanReturn3 {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: white;
+	display: block;
+	margin-top: 10px;
+}
+
+.bottom-left3 img {
+	margin-top: 10px;
+	width: 27px;
+	height: 27px;
+}
+
+.bottom-left3 #eight3 {
+	color: white;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	position: relative;
+	left: 5px;
+	bottom: 10px;
+}
+
+.nft-card4 {
+	box-sizing: border-box;
+	position: absolute;
+	width: 500px;
+	height: 228px;
+	left: 820px;
+	top: 1070px;
+	background: #281c39;
+	border-radius: 20px;
+}
+
+.nft-img4 {
+	display: block;
+	margin-top: 24px;
+	margin-left: 19px;
+}
+
+.clockhand4 {
+	position: absolute;
+	right: 208.5px;
+	top: 57px;
+}
+.nft-img4 span {
+	position: absolute;
+	width: 94px;
+	height: 39px;
+	background: #88e900;
+	border-radius: 20px 0px;
+	top: 164px;
+	left: 129px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	color: #000000;
+}
+
+.nft-card-left4 {
+	position: absolute;
+	top: 20px;
+	left: 48%;
+}
+
+.nft-card-left4 b {
+	color: white;
+
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.nft-card-left4 p#list-p4 {
+	display: block;
+	margin-top: 8px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	/* identical to box height */
+
+	color: #ff8e8e;
+}
+
+.nft-icons4 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 10px;
+	margin-right: 30px;
+}
+
+.nft-icons3.img4 {
+	width: 18px;
+}
+
+.nft-icons4 span {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	position: relative;
+	bottom: 7px;
+	margin-left: 5px;
+	margin-right: 19px;
+	color: #ffffff;
+}
+
+.span4 span {
+	color: white;
+	margin-top: 10px;
+	display: inline-grid;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #ffffff;
+}
+
+.span4 span.green4 {
+	color: #88e900;
+	margin-right: 6px;
+}
+
+.span4 span#green-apy4 {
+	margin-left: 19px;
+}
+
+.line6 {
+	display: block;
+	width: 224px;
+	height: 0px;
+	margin-top: 15px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bottom-left4 #loanReturn4 {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: white;
+	display: block;
+	margin-top: 10px;
+}
+
+.bottom-left4 img {
+	margin-top: 10px;
+	width: 27px;
+	height: 27px;
+}
+
+.bottom-left4 #eight4 {
+	color: white;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	position: relative;
+	left: 5px;
+	bottom: 10px;
+}
+
+.nft-card5 {
+	box-sizing: border-box;
+	position: absolute;
+	width: 500px;
+	height: 228px;
+	left: 294px;
+	top: 82.3rem;
+	background: #281c39;
+	border-radius: 20px;
+}
+
+.nft-img5 {
+	display: block;
+	margin-top: 24px;
+	margin-left: 19px;
+}
+
+.clockhand5 {
+	position: absolute;
+	top: 57px;
+	left: 10px;
+}
+.nft-img5 span {
+	position: absolute;
+	width: 94px;
+	height: 39px;
+	background: #88e900;
+	border-radius: 20px 0px;
+	top: 164px;
+	left: 129px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	color: #000000;
+}
+
+.nft-card-left5 {
+	position: absolute;
+	top: 20px;
+	left: 48%;
+}
+
+.nft-card-left5 b {
+	color: white;
+
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.nft-card-left5 p#list-p5 {
+	display: block;
+	margin-top: 8px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	/* identical to box height */
+
+	color: #ff8e8e;
+}
+
+.nft-icons5 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 10px;
+	margin-right: 30px;
+}
+
+.nft-icons5 span {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	position: relative;
+	bottom: 7px;
+	margin-left: 5px;
+	margin-right: 19px;
+	color: #ffffff;
+}
+
+.span5 span {
+	color: white;
+	margin-top: 10px;
+	display: inline-grid;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #ffffff;
+}
+
+.span5 span.green5 {
+	color: #88e900;
+	margin-right: 6px;
+}
+
+.span5 span#green-apy5 {
+	margin-left: 19px;
+}
+
+.line7 {
+	display: block;
+	width: 224px;
+	height: 0px;
+	margin-top: 15px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bottom-left5 #loanReturn5 {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: white;
+	display: block;
+	margin-top: 10px;
+}
+
+.bottom-left5 img {
+	margin-top: 10px;
+	width: 27px;
+	height: 27px;
+}
+
+.bottom-left5 #eight5 {
+	color: white;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	position: relative;
+	left: 5px;
+	bottom: 10px;
+}
+
+.nft-card6 {
+	box-sizing: border-box;
+	position: absolute;
+	width: 500px;
+	height: 228px;
+	left: 820px;
+	top: 82.3rem;
+	background: #281c39;
+	border-radius: 20px;
+}
+
+.nft-img6 {
+	display: block;
+	margin-top: 24px;
+	margin-left: 19px;
+}
+
+.clockhand6 {
+	position: absolute;
+	left: 10px;
+	top: 57px;
+}
+.nft-img6 span {
+	position: absolute;
+	width: 94px;
+	height: 39px;
+	background: #88e900;
+	border-radius: 20px 0px;
+	top: 164px;
+	left: 129px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 40px;
+	text-align: center;
+	color: #000000;
+}
+
+.nft-card-left6 {
+	position: absolute;
+	top: 20px;
+	left: 48%;
+}
+
+.nft-card-left6 b {
+	color: white;
+
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+}
+
+.nft-card-left6 p#list-p6 {
+	display: block;
+	margin-top: 8px;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	/* identical to box height */
+
+	color: #ff8e8e;
+}
+
+.nft-icons6 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 10px;
+	margin-right: 30px;
+}
+
+.nft-icons6 span {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	position: relative;
+	bottom: 7px;
+	margin-left: 5px;
+	margin-right: 19px;
+	color: #ffffff;
+}
+
+.span6 span {
+	color: white;
+	margin-top: 10px;
+	display: inline-grid;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #ffffff;
+}
+
+.span6 span.green6 {
+	color: #88e900;
+	margin-right: 6px;
+}
+
+.span6 span#green-apy6 {
+	margin-left: 19px;
+}
+
+.line8 {
+	display: block;
+	width: 224px;
+	height: 0px;
+	margin-top: 15px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bottom-left6 #loanReturn6 {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: white;
+	display: block;
+	margin-top: 10px;
+}
+
+.bottom-left6 img {
+	margin-top: 10px;
+	width: 27px;
+	height: 27px;
+}
+
+.bottom-left6 #eight6 {
+	color: white;
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	position: relative;
+	left: 5px;
+	bottom: 10px;
 }
