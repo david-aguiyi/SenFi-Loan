@@ -39,6 +39,9 @@ input[type="text"] {
 	border-radius: 15px;
 	border: none;
 	opacity: 0.9;
+	padding: 24px;
+	font-size: 16px;
+	color: white;
 	background: rgba(46, 28, 69, 0.51);
 }
 
@@ -52,7 +55,8 @@ input::placeholder {
 	left: 3%;
 	color: rgba(255, 255, 255, 0.67);
 }
-
+  
+  
 img.search {
 	position: relative;
 	width: 20px;
@@ -1494,7 +1498,7 @@ option {
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-	background: #b791d350; 
+	background: #a58ab850; 
 	border: none;
 	border-radius: 20px;
 	height: 33px;
