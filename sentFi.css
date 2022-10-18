@@ -201,7 +201,7 @@ button.inst-loan span {
 	width: 310px;
 	height: 402px;
 	left: 690px;
-	top: 145px;
+	top: -55.5em;
 	padding-right: 4em;
 	background: rgba(228, 206, 255, 0.17);
 	backdrop-filter: blur(15.5px);
@@ -319,7 +319,7 @@ button.inst-loan span {
 	width: 466px;
 	height: 430px;
 	left: 887px;
-	top: 105px;
+	top: -55em;
 	background: rgba(0, 156, 243, 0.24);
 	filter: blur(110px);
 }
@@ -433,7 +433,7 @@ button.inst-loan span {
 	width: 310px;
 	height: 402px;
 	left: 1020px;
-	top: 346px;
+	top: -43em;
 	background: rgba(228, 206, 255, 0.17);
 	backdrop-filter: blur(15.5px);
 	border-radius: 20px;
@@ -441,7 +441,6 @@ button.inst-loan span {
 
 .right-half {
 	position: absolute;
-	margin-top: -65em;
 }
 
 .second-half {
@@ -1519,7 +1518,6 @@ option {
 	top: 7.5rem;
 	left: 2rem;
 	color: white;
-	/* margin-left: -0.8rem; */
 }
 
 .navi-section img.icon {
@@ -1571,7 +1569,6 @@ option {
 .menu{
 	list-style: none;
 	padding-left: 1.5em;
-	transform: translateX(-50%);
 	transition: 0.3s;
 	display: none;
 }
@@ -1581,3 +1578,11 @@ option {
 	cursor: pointer;
 }
 
+.active{
+	color: #88e900;
+}
+
+.menu-open{
+	display: block;
+	opacity: 1;
+}
