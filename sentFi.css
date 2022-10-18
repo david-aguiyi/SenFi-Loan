@@ -1483,25 +1483,24 @@ option {
 
 /* width */
 ::-webkit-scrollbar {
-	width: 10px;
+	width: 8px;
 	
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-	  z-index: 11;
 	background: transparent; 
   }
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-	background: #26143e; 
-	border: 2px solid #1b17204d;
+	background: #b791d350; 
+	border: none;
 	border-radius: 20px;
 	height: 33px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-	background: #502986; 
+	background: #c7b7d37a; 
   }
