@@ -17,8 +17,9 @@ header {
 	position: fixed;
 	backdrop-filter: blur(15px);
 	height: 7.49rem;
-	background-color: #100420de;;
+	background-color: #100420de;
 	width: 100%;
+	margin-top: -33px;
 }
 
 .logo {
@@ -55,8 +56,7 @@ input::placeholder {
 	left: 3%;
 	color: rgba(255, 255, 255, 0.67);
 }
-  
-  
+
 img.search {
 	position: relative;
 	width: 20px;
@@ -109,7 +109,7 @@ img.search {
 
 .vertical-line {
 	border-left: 1px solid rgba(255, 255, 255, 0.21);
-	height: 95rem;
+	height: 1240px;
 	position: fixed;
 	left: 265px;
 	top: 7.65rem;
@@ -117,9 +117,9 @@ img.search {
 
 .left-half {
 	position: absolute;
-	top: 25%;
 	left: 22%;
-	color: wheat;
+	top: -53rem;
+	color: white;
 }
 
 .left-half b {
@@ -129,11 +129,8 @@ img.search {
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 128%;
-	/* identical to box height, or 31px */
-
 	text-align: center;
 	letter-spacing: 0.02em;
-
 	color: #ffffff;
 }
 
@@ -146,7 +143,7 @@ img.search {
 	letter-spacing: 0.02em;
 	letter-spacing: 2%;
 	color: #88e900;
-	max-width: 70%;
+	max-width: 50%;
 	margin-top: 10px;
 }
 
@@ -156,7 +153,7 @@ img.search {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 25px;
-	max-width: 364px;
+	max-width: 45%;
 	color: #ffffff;
 	margin-top: 15px;
 }
@@ -199,7 +196,7 @@ button.inst-loan span {
 	font-family: "Inter";
 	position: relative;
 	/* margin-top: -37.7rem; */
-	color: wheat;
+	color: white;
 	box-sizing: border-box;
 	width: 310px;
 	height: 402px;
@@ -431,7 +428,7 @@ button.inst-loan span {
 	font-family: "Inter";
 	position: relative;
 	margin-top: -37.7rem;
-	color: wheat;
+	color: white;
 	box-sizing: border-box;
 	width: 310px;
 	height: 402px;
@@ -442,10 +439,20 @@ button.inst-loan span {
 	border-radius: 20px;
 }
 
+.right-half {
+	position: absolute;
+	margin-top: -65em;
+}
+
+.second-half {
+	position: relative;
+	top: -25rem;
+}
+
 nav {
 	position: relative;
-	left: 275px;
-	top: 25rem;
+	left: 261px;
+	top: 38rem;
 }
 
 nav ul li {
@@ -500,7 +507,7 @@ nav ul li a:hover::after {
 	position: absolute;
 	width: 955px;
 	height: 100px;
-	left: 306px;
+	left: 295px;
 	top: 685px;
 	border: 1px solid rgba(255, 255, 255, 0.17);
 	border-radius: 15px;
@@ -590,7 +597,8 @@ option {
 }
 
 .main-page {
-	max-width: 20%;
+	position: relative;
+	top: 39em;
 }
 
 .nft-card1 {
@@ -1481,30 +1489,95 @@ option {
 	left: 5px;
 	bottom: 10px;
 }
-
-
 /* Scrollbar styling */
 
 /* width */
 ::-webkit-scrollbar {
 	width: 8px;
-	
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-	background: transparent; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-	background: #a58ab850; 
+	background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #a58ab850;
 	border: none;
 	border-radius: 20px;
 	height: 33px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-	background: #c7b7d37a; 
-  }
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #c7b7d37a;
+}
+
+.navi-section {
+	position: relative;
+	top: 7.5rem;
+	left: 2rem;
+	color: white;
+	/* margin-left: -0.8rem; */
+}
+
+.navi-section img.icon {
+	position: absolute;
+	top: 17px;
+	left: -15px;
+}
+
+.navi-section img.caret {
+	position: absolute;
+	top: 26px;
+	left: 145px;
+}
+
+.dropdown {
+	min-width: 15em;
+	position: relative;
+	margin: 2em;
+	margin-bottom: -30px;
+}
+
+.dropdown * {
+	box-sizing: border-box;
+}
+
+.select {
+	background-color: transparent;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1em;
+	cursor: pointer;
+	font-size: 18px;
+	margin-left: 5px;
+}
+
+.select-clicked{
+	color: white;
+}
+
+.caret{
+	transition: 0.3s;
+}
+
+.caret-rotate{
+	transform: rotate(180deg);
+}
+
+.menu{
+	list-style: none;
+	padding-left: 1.5em;
+	transform: translateX(-50%);
+	transition: 0.3s;
+	display: none;
+}
+
+.menu li {
+	padding: 0.7em 0.5em;
+	cursor: pointer;
+}
+
