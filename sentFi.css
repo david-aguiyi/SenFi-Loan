@@ -8,13 +8,15 @@
 
 body {
 	background: #100420;
-	overflow-x: hidden;
+	overflow-x: clip;
 	margin: auto;
 }
 
 header {
-	max-width: 90%;
-	/* position: fixed; */
+	z-index: 1;
+	position: fixed;
+	backdrop-filter: blur(10px);
+	height: 7.49rem;
 }
 
 .logo {
@@ -91,8 +93,8 @@ img.search {
 }
 .hr-lin {
 	position: relative;
-	min-width: 101%;
-	height: 0px;
+	width: 85rem;
+	/* height: 0px; */
 	left: -15px;
 	top: 20px;
 	border: 1px solid rgba(255, 255, 255, 0.21);
@@ -102,9 +104,9 @@ img.search {
 .vertical-line {
 	border-left: 1px solid rgba(255, 255, 255, 0.21);
 	height: 95rem;
-	position: relative;
+	position: fixed;
 	left: 265px;
-	top: 1.23rem;
+	top: 7.65rem;
 }
 
 .left-half {
@@ -190,7 +192,7 @@ button.inst-loan span {
 #right-half1 {
 	font-family: "Inter";
 	position: relative;
-	margin-top: -37.7rem;
+	/* margin-top: -37.7rem; */
 	color: wheat;
 	box-sizing: border-box;
 	width: 310px;
@@ -434,15 +436,10 @@ button.inst-loan span {
 	border-radius: 20px;
 }
 
-.right-half {
-	position: relative;
-	top: -63.5rem;
-}
-
 nav {
 	position: relative;
 	left: 275px;
-	top: -38.5rem;
+	top: 25rem;
 }
 
 nav ul li {
