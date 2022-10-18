@@ -15,8 +15,10 @@ body {
 header {
 	z-index: 1;
 	position: fixed;
-	backdrop-filter: blur(10px);
+	backdrop-filter: blur(15px);
 	height: 7.49rem;
+	background-color: #100420de;;
+	width: 100%;
 }
 
 .logo {
@@ -93,7 +95,7 @@ img.search {
 }
 .hr-lin {
 	position: relative;
-	width: 85rem;
+	width: 87rem;
 	/* height: 0px; */
 	left: -15px;
 	top: 20px;
@@ -1475,3 +1477,31 @@ option {
 	left: 5px;
 	bottom: 10px;
 }
+
+
+/* Scrollbar styling */
+
+/* width */
+::-webkit-scrollbar {
+	width: 10px;
+	
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	  z-index: 11;
+	background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+	background: #26143e; 
+	border: 2px solid #1b17204d;
+	border-radius: 20px;
+	height: 33px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+	background: #502986; 
+  }
