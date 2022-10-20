@@ -17,7 +17,7 @@ header {
 	z-index: 1;
 	position: fixed;
 	backdrop-filter: blur(15px);
-	height: 7.49rem;
+	height: 6.4rem;
 	background-color: #100420de;
 	width: 100%;
 }
@@ -102,7 +102,6 @@ img.search {
 	width: 87rem;
 	/* height: 0px; */
 	left: -15px;
-	top: 20px;
 	border: 1px solid rgba(255, 255, 255, 0.21);
 	transform: rotate(180deg);
 }
@@ -112,7 +111,6 @@ img.search {
 	height: 1240px;
 	position: fixed;
 	left: 240px;
-	top: 7.65rem;
 }
 
 .left-half {
@@ -603,7 +601,7 @@ option {
 
 .main-page {
 	position: relative;
-	bottom: -64.5em;
+	bottom: -63.5em;
 	left: -1em;
 }
 
@@ -1523,7 +1521,7 @@ option {
 .navi-section {
 	position: fixed;
 	left: 1rem;
-	top: 8rem;
+	top: 7rem;
 	height: 40rem;
 	color: white;
 	overflow-y: auto;
