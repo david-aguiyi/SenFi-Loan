@@ -1532,6 +1532,9 @@ option {
 	font-family: "Inter";
 }
 
+.navi-section::-webkit-scrollbar {
+    display: none;
+}
 .navi-section img.icon {
 	position: absolute;
 	top: 17px;
