@@ -8,8 +8,9 @@
 
 body {
 	background: #100420;
-	overflow-x: clip;
+	overflow-x: clip; 
 	margin: auto;
+	font-family: "Inter";
 }
 
 header {
@@ -19,7 +20,6 @@ header {
 	height: 7.49rem;
 	background-color: #100420de;
 	width: 100%;
-	margin-top: -33px;
 }
 
 .logo {
@@ -111,7 +111,7 @@ img.search {
 	border-left: 1px solid rgba(255, 255, 255, 0.21);
 	height: 1240px;
 	position: fixed;
-	left: 265px;
+	left: 240px;
 	top: 7.65rem;
 }
 
@@ -143,7 +143,7 @@ img.search {
 	letter-spacing: 0.02em;
 	letter-spacing: 2%;
 	color: #88e900;
-	max-width: 50%;
+	max-width: 45%;
 	margin-top: 10px;
 }
 
@@ -160,6 +160,11 @@ img.search {
 .left-but {
 	margin-top: 10px;
 }
+
+button {
+	cursor: pointer;
+}
+
 button.create-loan {
 	box-sizing: border-box;
 	width: 165px;
@@ -439,13 +444,10 @@ button.inst-loan span {
 	border-radius: 20px;
 }
 
-.right-half {
-	position: absolute;
-}
-
 .second-half {
 	position: relative;
-	top: -25rem;
+	top: -14rem;
+	left: -1em;
 }
 
 nav {
@@ -495,7 +497,7 @@ nav ul li a:hover::after {
 .line2 {
 	border: 1px solid rgba(255, 255, 255, 0.2);
 	position: absolute;
-	width: 1020px;
+	width: 1035px;
 	height: 0px;
 	left: 33px;
 	top: 51px;
@@ -511,6 +513,10 @@ nav ul li a:hover::after {
 	border: 1px solid rgba(255, 255, 255, 0.17);
 	border-radius: 15px;
 	padding-left: 3px;
+}
+
+.nft-cards {
+	display: block;
 }
 
 .filt-text {
@@ -597,7 +603,8 @@ option {
 
 .main-page {
 	position: relative;
-	top: 39em;
+	bottom: -64.5em;
+	left: -1em;
 }
 
 .nft-card1 {
@@ -1514,22 +1521,27 @@ option {
 }
 
 .navi-section {
-	position: relative;
-	top: 7.5rem;
-	left: 2rem;
+	position: fixed;
+	left: 1rem;
+	top: 8rem;
+	height: 40rem;
 	color: white;
+	overflow-y: auto;
+	overflow-x: hidden;
+	width: 16.5%;
+	font-family: "Inter";
 }
 
 .navi-section img.icon {
 	position: absolute;
 	top: 17px;
-	left: -15px;
+	left: -30px;
 }
 
 .navi-section img.caret {
 	position: absolute;
-	top: 26px;
-	left: 145px;
+	top: 23px;
+	left: 140px;
 }
 
 .dropdown {
@@ -1550,23 +1562,22 @@ option {
 	align-items: center;
 	padding: 1em;
 	cursor: pointer;
-	font-size: 18px;
-	margin-left: 5px;
+	font-size: 16px;
 }
 
-.select-clicked{
+.select-clicked {
 	color: white;
 }
 
-.caret{
-	transition: 0.3s;
+.caret {
+	transition: 0.2s;
 }
 
-.caret-rotate{
+.caret-rotate {
 	transform: rotate(180deg);
 }
 
-.menu{
+.menu {
 	list-style: none;
 	padding-left: 1.5em;
 	transition: 0.3s;
@@ -1578,11 +1589,57 @@ option {
 	cursor: pointer;
 }
 
-.active{
+.active {
 	color: #88e900;
 }
 
-.menu-open{
+.menu-open {
 	display: block;
 	opacity: 1;
 }
+
+.social-box {
+	width: 189px;
+	height: 234px;
+	margin-top: 58px;
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	border: 1px solid rgba(255, 255, 255, 0.11);
+	border-radius: 20px;
+	margin-bottom: 44%;
+}
+
+.connect {
+	text-align: center;
+	display: block;
+	margin-top: 25px;
+	margin-left: 20px;
+	margin-right: 14px;
+	margin-bottom: 15px;
+}
+
+.border {
+	width: 126px;
+	height: 36px;
+	border: 1px solid rgba(255, 255, 255, 0.29);
+	border-radius: 20px;
+	display: block;
+	margin-left: 21px;
+	max-inline-size: auto;
+}
+
+.border span{
+	position: relative;
+	bottom: 8%;
+	left: 6%;
+}
+.border img{
+	margin-top: 6.5px;
+	margin-left: 1em;
+}
+
+.border#inst{
+	width: 136px;
+}
+
