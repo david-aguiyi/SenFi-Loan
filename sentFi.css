@@ -8,9 +8,13 @@
 
 body {
 	background: #100420;
-	overflow-x: clip; 
+	overflow-x: clip;
 	margin: auto;
 	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
 }
 
 header {
@@ -41,19 +45,17 @@ input[type="text"] {
 	border: none;
 	opacity: 0.9;
 	padding: 24px;
-	font-size: 16px;
-	color: white;
 	background: rgba(46, 28, 69, 0.51);
+	color: white;
+	font-size: 18px;
 }
 
 input::placeholder {
-	font-family: "Inter", sans-serif;
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
 	line-height: 19px;
 	position: relative;
 	left: 3%;
+	font-size: 18px;
+
 	color: rgba(255, 255, 255, 0.67);
 }
 
@@ -100,7 +102,6 @@ img.search {
 .hr-lin {
 	position: relative;
 	width: 87rem;
-	/* height: 0px; */
 	left: -15px;
 	border: 1px solid rgba(255, 255, 255, 0.21);
 	transform: rotate(180deg);
@@ -117,24 +118,18 @@ img.search {
 	position: absolute;
 	left: 22%;
 	top: -53rem;
-	color: white;
 }
 
 .left-half b {
 	width: 196px;
-	font-family: "Inter";
-	font-style: normal;
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 128%;
 	text-align: center;
 	letter-spacing: 0.02em;
-	color: #ffffff;
 }
 
 .left-half h1 {
-	font-family: "Inter";
-	font-style: normal;
 	font-weight: 900;
 	font-size: 48px;
 	line-height: 128%;
@@ -146,13 +141,9 @@ img.search {
 }
 
 .left-half p {
-	font-family: "Inter";
-	font-style: normal;
 	font-weight: 500;
-	font-size: 16px;
 	line-height: 25px;
 	max-width: 45%;
-	color: #ffffff;
 	margin-top: 15px;
 }
 .left-but {
@@ -172,8 +163,6 @@ button.create-loan {
 	border: none;
 }
 button.create-loan span {
-	font-family: "Inter";
-	font-style: normal;
 	font-size: 15px;
 	line-height: 19px;
 	color: #26143e;
@@ -188,9 +177,6 @@ button.inst-loan {
 	background-color: transparent;
 }
 button.inst-loan span {
-	font-family: "Inter";
-	font-style: normal;
-	font-size: 16px;
 	line-height: 19px;
 	color: #88e900;
 }
@@ -198,8 +184,6 @@ button.inst-loan span {
 #right-half1 {
 	font-family: "Inter";
 	position: relative;
-	/* margin-top: -37.7rem; */
-	color: white;
 	box-sizing: border-box;
 	width: 310px;
 	height: 402px;
@@ -215,12 +199,9 @@ button.inst-loan span {
 	position: absolute;
 	left: 26px;
 	top: 21px;
-	font-family: "Inter";
-	font-style: normal;
 	font-weight: 700;
 	font-size: 24px;
 	line-height: 154.52%;
-	color: white;
 }
 
 .depo-text {
@@ -228,12 +209,8 @@ button.inst-loan span {
 	left: 26px;
 	top: 64px;
 	width: 90%;
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
 	line-height: 132.52%;
-	color: #ffffff;
+	font-size: 18px;
 }
 
 .coin-depo {
@@ -293,7 +270,6 @@ button.inst-loan span {
 .eth-descript {
 	position: absolute;
 	left: 51px;
-	color: white;
 	bottom: 10px;
 }
 
@@ -338,7 +314,6 @@ button.inst-loan span {
 	left: 51px;
 	bottom: 10px;
 	top: 9px;
-	color: white;
 }
 
 .sol-descript span {
@@ -371,7 +346,6 @@ button.inst-loan span {
 	left: 51px;
 	bottom: 10px;
 	top: 9px;
-	color: white;
 }
 
 .usdc-descript span {
@@ -405,7 +379,6 @@ button.inst-loan span {
 	left: 51px;
 	bottom: 10px;
 	top: 9px;
-	color: white;
 }
 
 .matic-descript span {
@@ -431,7 +404,6 @@ button.inst-loan span {
 	font-family: "Inter";
 	position: relative;
 	margin-top: -37.7rem;
-	color: white;
 	box-sizing: border-box;
 	width: 310px;
 	height: 402px;
@@ -439,6 +411,7 @@ button.inst-loan span {
 	top: -43em;
 	background: rgba(228, 206, 255, 0.17);
 	backdrop-filter: blur(15.5px);
+	/* Note: backdrop-filter has minimal browser support */
 	border-radius: 20px;
 }
 
@@ -456,21 +429,15 @@ nav {
 
 nav ul li {
 	list-style: none;
-	font-family: "Inter";
-	font-style: normal;
-	font-size: 16px;
 	line-height: 19px;
 	float: left;
 	margin: 19px 33px;
-	color: #ffffff;
-	font-weight: 400;
 }
 
 nav ul li a {
 	text-decoration: none;
 	display: inline-block;
 	position: relative;
-	color: white;
 }
 nav ul li a::after {
 	content: "";
@@ -520,13 +487,9 @@ nav ul li a:hover::after {
 .filt-text {
 	position: relative;
 	left: 20px;
-	font-family: "Inter";
-	font-style: normal;
 	font-weight: 700;
-	font-size: 16px;
 	line-height: 19px;
 	top: -1px;
-	color: #ffffff;
 }
 
 select {
@@ -540,12 +503,9 @@ select {
 	left: -27px;
 	appearance: none;
 	top: 40px;
-	font-size: 16px;
 	margin-right: 9px;
-	font-weight: 400;
 	background: rgba(238, 225, 255, 0.13);
 	border-radius: 15px;
-	color: white;
 	outline: none;
 }
 
@@ -635,10 +595,7 @@ option {
 	border-radius: 20px 0px;
 	top: 164px;
 	left: 129px;
-	font-family: "Inter";
-	font-style: normal;
 	font-weight: 500;
-	font-size: 16px;
 	line-height: 40px;
 	text-align: center;
 	color: #000000;
@@ -651,25 +608,15 @@ option {
 }
 
 .nft-card-left1 b {
-	color: white;
-
-	font-family: "Inter";
-	font-style: normal;
 	font-weight: 500;
-	font-size: 16px;
 	line-height: 19px;
 }
 
 .nft-card-left1 p#list-p {
 	display: block;
 	margin-top: 8px;
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
 	font-size: 12px;
 	line-height: 15px;
-	/* identical to box height */
-
 	color: #ff8e8e;
 }
 
@@ -686,28 +633,17 @@ option {
 }
 
 .nft-icons span {
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
 	line-height: 19px;
 	position: relative;
 	bottom: 7px;
 	margin-left: 5px;
 	margin-right: 19px;
-	color: #ffffff;
 }
 
 .span span {
-	color: white;
 	margin-top: 10px;
 	display: inline-grid;
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
 	line-height: 19px;
-	color: #ffffff;
 }
 
 .span span.green {
@@ -728,10 +664,7 @@ option {
 }
 
 .bottom-left #loanReturn {
-	font-weight: 400;
-	font-size: 16px;
 	line-height: 19px;
-	color: white;
 	display: block;
 	margin-top: 10px;
 }
@@ -743,11 +676,6 @@ option {
 }
 
 .bottom-left #eight {
-	color: white;
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
 	line-height: 19px;
 	position: relative;
 	left: 6px;
@@ -784,10 +712,7 @@ option {
 	border-radius: 20px 0px;
 	top: 164px;
 	left: 129px;
-	font-family: "Inter";
-	font-style: normal;
 	font-weight: 500;
-	font-size: 16px;
 	line-height: 40px;
 	text-align: center;
 	color: #000000;
@@ -800,25 +725,15 @@ option {
 }
 
 .nft-card-left2 b {
-	color: white;
-
-	font-family: "Inter";
-	font-style: normal;
 	font-weight: 500;
-	font-size: 16px;
 	line-height: 19px;
 }
 
 .nft-card-left2 p#list-p2 {
 	display: block;
 	margin-top: 8px;
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
 	font-size: 12px;
 	line-height: 15px;
-	/* identical to box height */
-
 	color: #ff8e8e;
 }
 
@@ -831,28 +746,18 @@ option {
 }
 
 .nft-icons2 span {
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
 	line-height: 19px;
 	position: relative;
 	bottom: 7px;
 	margin-left: 5px;
 	margin-right: 19px;
-	color: #ffffff;
 }
 
 .span2 span {
-	color: white;
 	margin-top: 10px;
 	display: inline-grid;
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
+
 	line-height: 19px;
-	color: #ffffff;
 }
 
 .span2 span.green2 {
@@ -874,10 +779,7 @@ option {
 }
 
 .bottom-left2 #loanReturn2 {
-	font-weight: 400;
-	font-size: 16px;
 	line-height: 19px;
-	color: white;
 	display: block;
 	margin-top: 10px;
 }
@@ -889,11 +791,6 @@ option {
 }
 
 .bottom-left2 #eight2 {
-	color: white;
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
 	line-height: 19px;
 	position: relative;
 	left: 5px;
@@ -936,10 +833,7 @@ option {
 	border-radius: 20px 0px;
 	top: 164px;
 	left: 129px;
-	font-family: "Inter";
-	font-style: normal;
 	font-weight: 500;
-	font-size: 16px;
 	line-height: 40px;
 	text-align: center;
 	color: #000000;
@@ -952,25 +846,15 @@ option {
 }
 
 .nft-card-left3 b {
-	color: white;
-
-	font-family: "Inter";
-	font-style: normal;
 	font-weight: 500;
-	font-size: 16px;
 	line-height: 19px;
 }
 
 .nft-card-left3 p#list-p3 {
 	display: block;
 	margin-top: 8px;
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
 	font-size: 12px;
 	line-height: 15px;
-	/* identical to box height */
-
 	color: #ff8e8e;
 }
 
@@ -987,28 +871,17 @@ option {
 }
 
 .nft-icons3 span {
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
 	line-height: 19px;
 	position: relative;
 	bottom: 7px;
 	margin-left: 5px;
 	margin-right: 19px;
-	color: #ffffff;
 }
 
 .span3 span {
-	color: white;
 	margin-top: 10px;
 	display: inline-grid;
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
 	line-height: 19px;
-	color: #ffffff;
 }
 
 .span3 span.green3 {
@@ -1029,10 +902,7 @@ option {
 }
 
 .bottom-left3 #loanReturn3 {
-	font-weight: 400;
-	font-size: 16px;
 	line-height: 19px;
-	color: white;
 	display: block;
 	margin-top: 10px;
 }
@@ -1044,11 +914,6 @@ option {
 }
 
 .bottom-left3 #eight3 {
-	color: white;
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
 	line-height: 19px;
 	position: relative;
 	left: 5px;
@@ -1085,10 +950,7 @@ option {
 	border-radius: 20px 0px;
 	top: 164px;
 	left: 129px;
-	font-family: "Inter";
-	font-style: normal;
 	font-weight: 500;
-	font-size: 16px;
 	line-height: 40px;
 	text-align: center;
 	color: #000000;
@@ -1101,25 +963,15 @@ option {
 }
 
 .nft-card-left4 b {
-	color: white;
-
-	font-family: "Inter";
-	font-style: normal;
 	font-weight: 500;
-	font-size: 16px;
 	line-height: 19px;
 }
 
 .nft-card-left4 p#list-p4 {
 	display: block;
 	margin-top: 8px;
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
 	font-size: 12px;
 	line-height: 15px;
-	/* identical to box height */
-
 	color: #ff8e8e;
 }
 
@@ -1136,28 +988,17 @@ option {
 }
 
 .nft-icons4 span {
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
 	line-height: 19px;
 	position: relative;
 	bottom: 7px;
 	margin-left: 5px;
 	margin-right: 19px;
-	color: #ffffff;
 }
 
 .span4 span {
-	color: white;
 	margin-top: 10px;
 	display: inline-grid;
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
 	line-height: 19px;
-	color: #ffffff;
 }
 
 .span4 span.green4 {
@@ -1178,10 +1019,7 @@ option {
 }
 
 .bottom-left4 #loanReturn4 {
-	font-weight: 400;
-	font-size: 16px;
 	line-height: 19px;
-	color: white;
 	display: block;
 	margin-top: 10px;
 }
@@ -1193,11 +1031,6 @@ option {
 }
 
 .bottom-left4 #eight4 {
-	color: white;
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
 	line-height: 19px;
 	position: relative;
 	left: 5px;
@@ -1234,10 +1067,7 @@ option {
 	border-radius: 20px 0px;
 	top: 164px;
 	left: 129px;
-	font-family: "Inter";
-	font-style: normal;
 	font-weight: 500;
-	font-size: 16px;
 	line-height: 40px;
 	text-align: center;
 	color: #000000;
@@ -1250,25 +1080,15 @@ option {
 }
 
 .nft-card-left5 b {
-	color: white;
-
-	font-family: "Inter";
-	font-style: normal;
 	font-weight: 500;
-	font-size: 16px;
 	line-height: 19px;
 }
 
 .nft-card-left5 p#list-p5 {
 	display: block;
 	margin-top: 8px;
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
 	font-size: 12px;
 	line-height: 15px;
-	/* identical to box height */
-
 	color: #ff8e8e;
 }
 
@@ -1281,28 +1101,17 @@ option {
 }
 
 .nft-icons5 span {
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
 	line-height: 19px;
 	position: relative;
 	bottom: 7px;
 	margin-left: 5px;
 	margin-right: 19px;
-	color: #ffffff;
 }
 
 .span5 span {
-	color: white;
 	margin-top: 10px;
 	display: inline-grid;
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
 	line-height: 19px;
-	color: #ffffff;
 }
 
 .span5 span.green5 {
@@ -1323,10 +1132,7 @@ option {
 }
 
 .bottom-left5 #loanReturn5 {
-	font-weight: 400;
-	font-size: 16px;
 	line-height: 19px;
-	color: white;
 	display: block;
 	margin-top: 10px;
 }
@@ -1338,11 +1144,6 @@ option {
 }
 
 .bottom-left5 #eight5 {
-	color: white;
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
 	line-height: 19px;
 	position: relative;
 	left: 5px;
@@ -1379,10 +1180,7 @@ option {
 	border-radius: 20px 0px;
 	top: 164px;
 	left: 129px;
-	font-family: "Inter";
-	font-style: normal;
 	font-weight: 500;
-	font-size: 16px;
 	line-height: 40px;
 	text-align: center;
 	color: #000000;
@@ -1395,25 +1193,15 @@ option {
 }
 
 .nft-card-left6 b {
-	color: white;
-
-	font-family: "Inter";
-	font-style: normal;
 	font-weight: 500;
-	font-size: 16px;
 	line-height: 19px;
 }
 
 .nft-card-left6 p#list-p6 {
 	display: block;
 	margin-top: 8px;
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
 	font-size: 12px;
 	line-height: 15px;
-	/* identical to box height */
-
 	color: #ff8e8e;
 }
 
@@ -1426,28 +1214,18 @@ option {
 }
 
 .nft-icons6 span {
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
 	line-height: 19px;
 	position: relative;
 	bottom: 7px;
 	margin-left: 5px;
 	margin-right: 19px;
-	color: #ffffff;
 }
 
 .span6 span {
-	color: white;
 	margin-top: 10px;
 	display: inline-grid;
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
+
 	line-height: 19px;
-	color: #ffffff;
 }
 
 .span6 span.green6 {
@@ -1468,10 +1246,7 @@ option {
 }
 
 .bottom-left6 #loanReturn6 {
-	font-weight: 400;
-	font-size: 16px;
 	line-height: 19px;
-	color: white;
 	display: block;
 	margin-top: 10px;
 }
@@ -1483,18 +1258,12 @@ option {
 }
 
 .bottom-left6 #eight6 {
-	color: white;
-	font-family: "Inter";
-	font-style: normal;
-	font-weight: 400;
-	font-size: 16px;
 	line-height: 19px;
 	position: relative;
 	left: 5px;
 	bottom: 10px;
 }
 /* Scrollbar styling */
-
 /* width */
 ::-webkit-scrollbar {
 	width: 8px;
@@ -1523,7 +1292,6 @@ option {
 	left: 1rem;
 	top: 7rem;
 	height: 40rem;
-	color: white;
 	overflow-y: auto;
 	overflow-x: hidden;
 	width: 16.5%;
@@ -1531,7 +1299,7 @@ option {
 }
 
 .navi-section::-webkit-scrollbar {
-    display: none;
+	display: none;
 }
 .navi-section img.icon {
 	position: absolute;
@@ -1563,11 +1331,6 @@ option {
 	align-items: center;
 	padding: 1em;
 	cursor: pointer;
-	font-size: 16px;
-}
-
-.select-clicked {
-	color: white;
 }
 
 .caret {
@@ -1630,17 +1393,17 @@ option {
 	max-inline-size: auto;
 }
 
-.border span{
+.border span {
 	position: relative;
 	bottom: 8%;
 	left: 6%;
 }
-.border img{
+.border img {
 	margin-top: 6.5px;
 	margin-left: 1em;
 }
 
-.border#inst{
+.border#inst {
 	width: 136px;
 }
 
