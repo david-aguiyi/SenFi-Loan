@@ -1644,3 +1644,20 @@ option {
 	width: 136px;
 }
 
+@media (max-width: 1325px) {
+	body {
+		background: #26143e;
+	}
+	header {
+		display: none;
+	}
+	.navi-section {
+		display: none;
+	}
+	.main-page {
+		display: none;
+	}
+	.second-half {
+		display: none;
+	}
+}
