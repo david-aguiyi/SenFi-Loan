@@ -15,6 +15,7 @@ body {
 	font-weight: 400;
 	font-size: 16px;
 	color: white;
+	padding-bottom: 95em;
 }
 
 header {
@@ -161,13 +162,20 @@ button.create-loan {
 	background: #88e900;
 	border-radius: 20px;
 	border: none;
+	color: #26143e;
 }
 button.create-loan span {
 	font-size: 15px;
 	line-height: 19px;
-	color: #26143e;
 	font-weight: 500;
 }
+
+button.create-loan:active {
+	background-color: transparent;
+	border: 1px solid #88e900;
+	color: #88e900 !important;
+}
+
 button.inst-loan {
 	margin-left: 19px;
 	width: 165px;
@@ -175,12 +183,16 @@ button.inst-loan {
 	border: 1px solid #88e900;
 	border-radius: 20px;
 	background-color: transparent;
+	color: #88e900;
+	font-size: 15px;
 }
 button.inst-loan span {
 	line-height: 19px;
-	color: #88e900;
 }
-
+button.inst-loan:active {
+	background-color: #88e900;
+	color: #26143e;
+}
 #right-half1 {
 	font-family: "Inter";
 	position: relative;
@@ -425,6 +437,7 @@ nav {
 	position: relative;
 	left: 261px;
 	top: 38rem;
+	font-size: 18px;
 }
 
 nav ul li {
@@ -435,6 +448,7 @@ nav ul li {
 }
 
 nav ul li a {
+	color: white;
 	text-decoration: none;
 	display: inline-block;
 	position: relative;
@@ -493,6 +507,8 @@ nav ul li a:hover::after {
 }
 
 select {
+	font-size: 16px;
+	color: white;
 	border: none;
 	width: 90px;
 	box-sizing: border-box;
@@ -1303,13 +1319,13 @@ option {
 }
 .navi-section img.icon {
 	position: absolute;
-	top: 17px;
+	top: 13px;
 	left: -30px;
 }
 
 .navi-section img.caret {
 	position: absolute;
-	top: 23px;
+	top: 22px;
 	left: 140px;
 }
 
@@ -1391,11 +1407,12 @@ option {
 	display: block;
 	margin-left: 21px;
 	max-inline-size: auto;
+	cursor: pointer;
 }
 
 .border span {
 	position: relative;
-	bottom: 8%;
+	bottom: 13%;
 	left: 6%;
 }
 .border img {
