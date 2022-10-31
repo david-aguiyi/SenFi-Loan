@@ -1424,6 +1424,10 @@ option {
 	width: 136px;
 }
 
+.error{
+	display: none;
+}
+
 @media (max-width: 1325px) {
 	body {
 		background: #26143e;
@@ -1439,5 +1443,26 @@ option {
 	}
 	.second-half {
 		display: none;
+	}
+	.error{
+		display: block;
+		overflow-x: hidden;
+	}
+	.error img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 95%;
+	}
+	.error-text{
+		max-width: 95%;
+		text-align: center;
+	}
+	.error b{
+	font-size: 2rem;
+	}
+	.error p{
+		margin-top: 1em;
+		
 	}
 }
