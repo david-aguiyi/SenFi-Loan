@@ -1431,6 +1431,7 @@ option {
 @media (max-width: 1325px) {
 	body {
 		background: #26143e;
+		overflow-y: hidden;
 	}
 	header {
 		display: none;
