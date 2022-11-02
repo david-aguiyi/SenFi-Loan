@@ -1424,7 +1424,7 @@ option {
 	width: 136px;
 }
 
-.error{
+.error {
 	display: none;
 }
 
@@ -1445,25 +1445,30 @@ option {
 	.second-half {
 		display: none;
 	}
-	.error{
+	.error {
 		display: block;
 		overflow-x: hidden;
 	}
-	.error img{
+	.error img {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 		max-width: 95%;
 	}
-	.error-text{
+	.error-text {
 		max-width: 95%;
 		text-align: center;
 	}
-	.error b{
-	font-size: 2rem;
+	.error b {
+		font-size: 2rem;
 	}
-	.error p{
+	.error p {
 		margin-top: 1em;
-		
+	}
+}
+
+@media (min-width: 1500px) {
+	body{
+		background-color: red;
 	}
 }
