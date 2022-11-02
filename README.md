@@ -12,12 +12,14 @@ This website is a replica of the sentfi webapp for loan. This projects focuses m
 - I learnt how to design a custom scrollbar.
 - I learnt how to used the css property, blur-filter
 - I learnt how to used the overflow property
+- I learnt how to design a custom dropdown
+- I learnt how to animate a dropdown with javascript
 
 ## Resources Used
-- [StackOverflow](stackoverflow.com)
-- [Google](google.com)
+- [StackOverflow](https://stackoverflow.com/)
+- [Google](https://www.google.com/)
 - [Youtube(Kevin Powell aka CSS king)](https://www.youtube.com/kepowob)
-- [W3schools](w3schools.com)
+- [W3schools](https://www.w3schools.com/)
 
 ## Help recieved
 - [Jeremy](https://github.com/jeremy0x)
