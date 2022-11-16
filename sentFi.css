@@ -1468,7 +1468,41 @@ option {
 }
 
 @media (min-width: 1500px) {
-	body{
-		background-color: red;
+	body {
+		background: #26143e;
+		height: 100vh;
+	}
+	header {
+		display: none;
+	}
+	.navi-section {
+		display: none;
+	}
+	.main-page {
+		display: none;
+	}
+	.second-half {
+		display: none;
+	}
+	.error {
+		display: block;
+		overflow-x: hidden;
+	}
+	.error img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+		max-width: 150%;
+	}
+	.error-text {
+		font-size: 3rem;
+		text-align: center;
+	}
+	.error b {
+		font-size: 6rem;
+	}
+	.error p {
+		margin-top: 1em;
 	}
 }

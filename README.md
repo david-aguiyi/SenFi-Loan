@@ -26,4 +26,3 @@ This website is a replica of the sentfi webapp for loan. This projects focuses m
 
 ## Appreciation
 I would like to appreciated [Jeremy](https://github.com/jeremy0x) for giving me the idea of creating this website, and helping me scale through problems. Also to thank [Kevin Powell](https://www.youtube.com/kepowob) for been a good teacher and to all other resources that I used. Thank you
-
